@@ -1,0 +1,10 @@
+# Use `less +F` instead of `tail -f`
+
+Why? You can switch stream and search mode without leaving less. For example, while
+reading a file stream you can make a regular search by hitting `Ctrl-c` and
+using slash (`/`) to seek for a word. To switch back to stream mode hit F.
+
+To see all the options available just read `man less`.
+
+Reference: [Stop using tail -f
+(mostly)](http://www.brianstorti.com/stop-using-tail)
